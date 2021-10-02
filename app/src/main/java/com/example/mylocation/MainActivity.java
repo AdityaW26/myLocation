@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
         //Initialize places
         // Enter you API KEY in second param
-        Places.initialize(getApplicationContext(), "");
+        Places.initialize(getApplicationContext(), "AIzaSyD9C3epp3yx4IlE6Od894rpLIY3ivd_abQ");
         searchLoc.setFocusable(false);
     }
 
