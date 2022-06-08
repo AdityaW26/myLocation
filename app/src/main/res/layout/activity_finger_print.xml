@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/iv_fingerPrint"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_centerInParent="true"
         android:contentDescription="@string/app_name"
         android:src="@drawable/ic_baseline_fingerprint_24"/>

@@ -94,7 +94,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     }
 
     private void initValues() {
-        Log.d("TAG", "In initValues");
         relativeLayout = findViewById(R.id.activity_main);
         supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.google_map);
         client = LocationServices.getFusedLocationProviderClient(this);
@@ -107,7 +106,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     }
 
     private void checkLocationPermission() {
-        Log.d("TAG", "In checkLocationPermission");
         if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             checkLocationOnOff();
         } else {
@@ -119,7 +117,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     @SuppressWarnings("deprecation")
     @SuppressLint("ShowToast")
     private void checkLocationOnOff() {
-        Log.d("TAG", "In checkLocationOnOff");
 
         if (googleApiClient == null) {
             googleApiClient = new GoogleApiClient.Builder(this)

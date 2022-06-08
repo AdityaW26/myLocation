@@ -157,6 +157,5 @@ public class FingerPrintActivity extends AppCompatActivity {
         btnRetry = findViewById(R.id.btn_retry);
         btnRetry.setVisibility(View.GONE);
         progressBar = findViewById(R.id.progressBar);
-
     }
 }

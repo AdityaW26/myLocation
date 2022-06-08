@@ -6,7 +6,7 @@
         android:title="Search" />
     -->
 
-    <item android:id="@+id/shareLoc" android:contentDescription="@string/app_name"
+    <item android:id="@+id/shareLoc" android:contentDescription="@string/app_name" app:showAsAction="never"
         android:title="Share Location" />
 
 </menu>

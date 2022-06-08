@@ -79,7 +79,6 @@
                     android:textStyle="normal"
                     android:layout_marginStart="10dp"/>
 
-
             </LinearLayout>
 
         </LinearLayout>
